@@ -1,5 +1,5 @@
 {
-	"image": "mcr.microsoft.com/vscode/devcontainers/python:0-3.9",
+	"image": "mcr.microsoft.com/vscode/devcontainers/python:0-3.12",
 	"context": "..",
 	"postCreateCommand": "python3 setup.py develop",
 	"runArgs": [
@@ -10,7 +10,7 @@
 		"ms-python.python",
 		"ms-python.pylint",
 		"github.vscode-pull-request-github",
-		"tabnine.tabnine-vscode"
+		"GitHub.vscode-github-actions"
 	],
 	"settings": {
 		"files.eol": "\n",
